@@ -1,7 +1,9 @@
 {
   "name": "generate-react-component",
   "displayName": "generate-react-component",
-  "description": "",
+  "description": "Generate component structure from easily customizable templates",
+  "author": "Joshua Goldman",
+	"license": "MIT",
   "version": "0.2.0",
   "publisher": "joshjg",
   "repository": {
