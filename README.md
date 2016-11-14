@@ -1,6 +1,6 @@
 # generate-react-component
 
-Simple, template-based React component and Redux container generator for VS Code.
+Simple, template-based React component and Redux container generator for VS Code. [Atom version here.](https://github.com/joshjg/generate-react-component)
 
 ## Usage
 * Right click any directory in the explorer panel
