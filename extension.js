@@ -99,7 +99,7 @@ const createDisposable = (type) => (
       if (params === undefined) return;
 
       const { name, enabledOptions } = params;
-      generate(name.trim(), target.path, type, enabledOptions);
+      generate(name.trim(), target.fsPath, type, enabledOptions);
     });
   })
 )
