@@ -56,7 +56,7 @@ const generate = (componentName, inputPath, mode, enabledOptions) => {
           fs.appendFile(newFilePath, replacePlaceholders(
             computeConditionals(data.toString(), enabledOptions),
             componentName
-          ));
+          ), ()=>{});
         });
       });
     });
