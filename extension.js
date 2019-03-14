@@ -52,11 +52,11 @@ const generate = (componentName, inputPath, mode, enabledOptions) => {
         const filePath = path.resolve(templatePath, filename);
         fs.readFile(filePath, (err, data) => {
           if (err) throw err;
-          const newFilePath = path.join(newPath, newFilename);
+					const newFilePath = path.join(newPath, newFilename);
           fs.appendFile(newFilePath, replacePlaceholders(
             computeConditionals(data.toString(), enabledOptions),
             componentName
-          ));
+          ), ()=>{});
         });
       });
     });
