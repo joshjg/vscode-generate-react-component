@@ -1,4 +1,5 @@
 # generate-react-component
+# NOT MAINTAINED. I suggest using a more general-purpose code generator/scaffolder such as [hygen](https://github.com/jondot/hygen)
 
 Simple, template-based React component and Redux container generator for VS Code. [Atom version here.](https://github.com/joshjg/generate-react-component)
 
